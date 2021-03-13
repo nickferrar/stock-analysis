@@ -21,9 +21,12 @@ The data set for this project was small with only 12 data points and the improve
 
 The cons of refactoring code is that it can cause issues and errors elsewhere in the code that might not be anticipated. If you are running on a tight deadline it wouldn't be 
 advisable to refactor near the deadline. In this example however, it did not cause any issues as we were simply replacing the for loop with an indexing variable so that the code
-runs less times. The changes in the code are here:
+runs less times. 
+
+The changes in the code are here:
 
 [Original](https://github.com/nickferrar/stock-analysis/blob/main/Original%20loop.PNG)
 [Refactored](https://github.com/nickferrar/stock-analysis/blob/main/Refactored%20Loop.PNG)
 
-
+In the original, there's a nested for loop that checks the whole data set every time it runs through the first for loop. In the refactored code, there's an indexing variable that
+increases when all of that ticker has been found. This makes the code run less amounts of time and less checking which explains the reduced runtime. 
