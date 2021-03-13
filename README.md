@@ -19,9 +19,11 @@ The image for 2018's refactored code runtime is: [2018](VBA_Challenge_2018.PNG)
 The pros of refactoring code is that the functionality of the code can be greatly improved. This can help if the program is complicated or taking in huge amounts of data.
 The data set for this project was small with only 12 data points and the improvement was half a second.
 
-The cons of refactoring code is that it can cause issues and errors elsewhere in the code that might noe be anticipated. If you are running on a tight deadline it wouldn't be 
+The cons of refactoring code is that it can cause issues and errors elsewhere in the code that might not be anticipated. If you are running on a tight deadline it wouldn't be 
 advisable to refactor near the deadline. In this example however, it did not cause any issues as we were simply replacing the for loop with an indexing variable so that the code
 runs less times. The changes in the code are here:
 
 [Original](https://github.com/nickferrar/stock-analysis/blob/main/Original%20loop.PNG)
 [Refactored](https://github.com/nickferrar/stock-analysis/blob/main/Refactored%20Loop.PNG)
+
+
