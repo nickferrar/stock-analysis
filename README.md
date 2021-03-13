@@ -23,5 +23,5 @@ The cons of refactoring code is that it can cause issues and errors elsewhere in
 advisable to refactor near the deadline. In this example however, it did not cause any issues as we were simply replacing the for loop with an indexing variable so that the code
 runs less times. The changes in the code are here:
 
-[Original](Original loop.PNG)
-[Refactored](Refactored Loop.PNG)
+[Original](https://github.com/nickferrar/stock-analysis/blob/main/Original%20loop.PNG)
+[Refactored](https://github.com/nickferrar/stock-analysis/blob/main/Refactored%20Loop.PNG)
